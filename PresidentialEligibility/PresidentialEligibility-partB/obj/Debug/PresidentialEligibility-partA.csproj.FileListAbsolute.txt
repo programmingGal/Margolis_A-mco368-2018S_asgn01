@@ -1,0 +1,6 @@
+C:\Users\Adina\source\repos\PresidentialEligibility\PresidentialEligibility-partB\obj\Debug\PresidentialEligibility-partA.csprojResolveAssemblyReference.cache
+C:\Users\Adina\source\repos\PresidentialEligibility\PresidentialEligibility-partB\obj\Debug\PresidentialEligibility-partA.csproj.CoreCompileInputs.cache
+C:\Users\Adina\source\repos\PresidentialEligibility\PresidentialEligibility-partB\bin\Debug\PresidentialEligibility-partA.dll
+C:\Users\Adina\source\repos\PresidentialEligibility\PresidentialEligibility-partB\bin\Debug\PresidentialEligibility-partA.pdb
+C:\Users\Adina\source\repos\PresidentialEligibility\PresidentialEligibility-partB\obj\Debug\PresidentialEligibility-partA.dll
+C:\Users\Adina\source\repos\PresidentialEligibility\PresidentialEligibility-partB\obj\Debug\PresidentialEligibility-partA.pdb
