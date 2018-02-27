@@ -20,27 +20,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.NaturalBornCheckBox = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            
+            this.BirthYearTextBox = new System.Windows.Forms.RichTextBox();
+            this.yearsResidedTextBox = new System.Windows.Forms.RichTextBox();
+            this.priortermsTextBox = new System.Windows.Forms.RichTextBox();
+            this.checkRebel = new System.Windows.Forms.CheckBox();
+            this.submitButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
-            // checkBox1
+            // NaturalBornCheckBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(15, 21);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(119, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Natural Born Citizen";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.NaturalBornCheckBox.AutoSize = true;
+            this.NaturalBornCheckBox.Location = new System.Drawing.Point(15, 21);
+            this.NaturalBornCheckBox.Name = "NaturalBornCheckBox";
+            this.NaturalBornCheckBox.Size = new System.Drawing.Size(119, 17);
+            this.NaturalBornCheckBox.TabIndex = 0;
+            this.NaturalBornCheckBox.Text = "Natural Born Citizen";
+            this.NaturalBornCheckBox.UseVisualStyleBackColor = true;
+            this.NaturalBornCheckBox.CheckedChanged += new System.EventHandler(this.NaturalBornCheckBox_CheckedChanged);
             // 
             // label1
             // 
@@ -65,69 +65,69 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 127);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(195, 13);
+            this.label3.Size = new System.Drawing.Size(196, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "How many prior times have you served?";
+            this.label3.Text = "How many prior terms have you served?";
             // 
-            // richTextBox1
+            // BirthYearTextBox
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(246, 50);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(100, 22);
-            this.richTextBox1.TabIndex = 4;
-            this.richTextBox1.Text = "";
+            this.BirthYearTextBox.Location = new System.Drawing.Point(246, 50);
+            this.BirthYearTextBox.Name = "BirthYearTextBox";
+            this.BirthYearTextBox.Size = new System.Drawing.Size(100, 22);
+            this.BirthYearTextBox.TabIndex = 4;
+            this.BirthYearTextBox.Text = "";
             // 
-            // richTextBox2
+            // yearsResidedTextBox
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(246, 84);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(100, 21);
-            this.richTextBox2.TabIndex = 5;
-            this.richTextBox2.Text = "";
+            this.yearsResidedTextBox.Location = new System.Drawing.Point(246, 84);
+            this.yearsResidedTextBox.Name = "yearsResidedTextBox";
+            this.yearsResidedTextBox.Size = new System.Drawing.Size(100, 21);
+            this.yearsResidedTextBox.TabIndex = 5;
+            this.yearsResidedTextBox.Text = "";
             // 
-            // richTextBox3
+            // priortermsTextBox
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(246, 124);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(100, 22);
-            this.richTextBox3.TabIndex = 6;
-            this.richTextBox3.Text = "";
+            this.priortermsTextBox.Location = new System.Drawing.Point(246, 124);
+            this.priortermsTextBox.Name = "priortermsTextBox";
+            this.priortermsTextBox.Size = new System.Drawing.Size(100, 22);
+            this.priortermsTextBox.TabIndex = 6;
+            this.priortermsTextBox.Text = "";
             // 
-            // checkBox2
+            // checkRebel
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(15, 163);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(142, 17);
-            this.checkBox2.TabIndex = 7;
-            this.checkBox2.Text = "rebelled against the U.S.";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.checkRebel.AutoSize = true;
+            this.checkRebel.Location = new System.Drawing.Point(15, 163);
+            this.checkRebel.Name = "checkRebel";
+            this.checkRebel.Size = new System.Drawing.Size(142, 17);
+            this.checkRebel.TabIndex = 7;
+            this.checkRebel.Text = "rebelled against the U.S.";
+            this.checkRebel.UseVisualStyleBackColor = true;
+            this.checkRebel.CheckedChanged += new System.EventHandler(this.checkRebel_CheckedChanged);
             // 
-            // button1
+            // submitButton
             // 
-            this.button1.Location = new System.Drawing.Point(165, 218);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 36);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Determine Eligibility";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.submitButton.Location = new System.Drawing.Point(165, 218);
+            this.submitButton.Name = "submitButton";
+            this.submitButton.Size = new System.Drawing.Size(75, 36);
+            this.submitButton.TabIndex = 8;
+            this.submitButton.Text = "Determine Eligibility";
+            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(425, 294);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.richTextBox3);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.submitButton);
+            this.Controls.Add(this.checkRebel);
+            this.Controls.Add(this.priortermsTextBox);
+            this.Controls.Add(this.yearsResidedTextBox);
+            this.Controls.Add(this.BirthYearTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.NaturalBornCheckBox);
             this.Name = "Form1";
             this.Text = "Presidential Eligibility";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -138,15 +138,15 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox NaturalBornCheckBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox BirthYearTextBox;
+        private System.Windows.Forms.RichTextBox yearsResidedTextBox;
+        private System.Windows.Forms.RichTextBox priortermsTextBox;
+        private System.Windows.Forms.CheckBox checkRebel;
+        private System.Windows.Forms.Button submitButton;
     }
 }
 
